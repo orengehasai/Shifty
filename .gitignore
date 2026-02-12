@@ -1,0 +1,43 @@
+# 環境変数ファイル
+.env
+.env.*
+!.env.example
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE/エディタ設定
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# ログファイル
+*.log
+logs/
+
+# フロントエンド（Node.js）
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.vite/
+
+# バックエンド（Go）
+backend/tmp/
+backend/vendor/
+backend/*.exe
+backend/*.test
+backend/*.out
+
+# Docker
+docker-compose.override.yml
+
+# その他の一時ファイル
+*.tmp
+*.temp
+*.cache
